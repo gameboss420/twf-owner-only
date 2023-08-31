@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <body><h1> HEY! I don't know how you got here but this is owner only materal. unless, you are the owner or were invited by the owner. if thats the case you should know the login info too. hehehe</h1> </body>
+<form>
+<input name="username" id="username" type="text">
+<input name="pass" id="pass" type="password">
+<input type="button" value="Submit" onclick="myFunction()">
+</form> 
+
+
+<script>
+function myFunction(){
+  var user = document.getElementById("username").value;
+  var pass = document.getElementById("pass").value;
+
+if(user == "admin" && pass == ""){
+            window.location.href="no_one_can_know.html"
+        alert("correct");
+   }else{
+    alert("Incorrect username or password");
+    }
+}
+</script>
+
+</html>
+
+
+      </script>
